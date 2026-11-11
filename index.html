@@ -160,6 +160,11 @@ tr:nth-child(even) td{background:rgba(255,255,255,.025)}
   text-align:center;animation:toast 3.2s forwards}
 @keyframes toast{0%{opacity:0;transform:translate(-50%,-20px) scale(.9)}10%,85%{opacity:1;transform:translate(-50%,0) scale(1)}100%{opacity:0}}
 
+.credit{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);text-align:center;font-size:.82rem;color:var(--muted);opacity:.85}
+.credit b{color:var(--ink);font-weight:800}
+.credit a{color:var(--cyan);text-decoration:none;border-bottom:1px dotted rgba(62,232,255,.5)}
+.credit a:hover{color:var(--pink);border-color:var(--pink)}
+.credit .sep{margin:0 8px;opacity:.5}
 /* ---------- final ---------- */
 .ending{text-align:center;display:grid;gap:16px;place-items:center}
 .duo{display:flex;gap:18px;justify-content:center}
@@ -259,6 +264,10 @@ tr:nth-child(even) td{background:rgba(255,255,255,.025)}
       <button class="big-btn" id="againBtn">Jogar de novo</button>
     </div>
   </section>
+
+  <footer class="credit">
+    Desenvolvido com 🍭 por <b>Lucas Lima</b><span class="sep">•</span><a href="mailto:lima35970@gmail.com">lima35970@gmail.com</a>
+  </footer>
 </div>
 
 <script>
