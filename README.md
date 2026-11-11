@@ -5,7 +5,7 @@ Um jogo para aprender SQL de forma divertida, inspirado em *O Incrível Mundo de
 A Mamãe Nicole proibiu doces no mercado. Ajude Gumball e Darwin a usar SQL para encontrar os doces, fugir das câmeras de segurança e descobrir quem está enchendo o carrinho. (Spoiler: sobra pro Ricardo. 😅)
 
 ## 🎮 Jogue agora
-👉 https://esccluc-1810.github.io/operacao-doce-proibido/
+👉 https://escluc-1810.github.io/operacao-doce-proibido/
 
 ## 📚 O que você vai praticar
 São 11 fases, do básico ao intermediário:
