@@ -84,6 +84,9 @@ button{font-family:inherit}
 
 .layout{display:grid;grid-template-columns:1fr 310px;gap:16px}
 @media (max-width:880px){.layout{grid-template-columns:1fr}}
+.layout>*{min-width:0}
+html,body{overflow-x:hidden}
+.tablewrap{max-width:100%}
 
 /* ---------- palco ---------- */
 .stage{min-height:230px;display:flex;align-items:flex-end;gap:18px;padding:22px}
